@@ -1,0 +1,31 @@
+# Python byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Reconstruction output folders & temporary run directories
+high_gpu_run/
+odm_*/
+*_reconstruction/
+
+# Input images & extracted frames directory
+images/
+
+# Output run files & generated georeferencing/analytics artifacts
+geo.txt
+analytics_report.json
+analytics_summary.txt
+
+# Generated 3D meshes, point clouds, and orthophoto rasters
+*.obj
+*.mtl
+*.ply
+*.tif
+*.tiff
+*.las
+*.laz
+
+# Environment & IDE configurations
+.vscode/
+.idea/
+.DS_Store
